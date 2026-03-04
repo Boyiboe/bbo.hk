@@ -1,0 +1,73 @@
+# BBO.HK — British Biology Olympiad Information Portal
+
+> BBO.HK is Hong Kong's most comprehensive British Biology Olympiad (BBO) information portal, operated by Aston Education.
+
+## British Biology Olympiad (BBO)
+
+The BBO is the UK's longest-running secondary school biology competition, established 1995, organized by the Royal Society of Biology (RSB). ~10,000 UK students participate annually. Top performers represent the UK at the International Biology Olympiad (IBO).
+
+### 2026 Season
+- UK/International exam: January 19-28, 2026
+- Registration: November 1, 2025 via UKBC
+- China exam (ASDAN): January 17, 2026, registration deadline January 6
+- Format: 90-minute individual written test, no lab component
+- Fee: Free UK / £30 per school international
+
+### Exam Syllabus
+- Animal Anatomy & Physiology: 25% (vertebrates emphasis)
+- Cell Biology: 20%
+- Genetics & Evolution: 20% (Mendelian inheritance, sex linkage)
+- Plant Anatomy & Physiology: 15% (seed plants)
+- Ecology: 10%
+- Ethology: 5%
+- Biosystematics: 5%
+
+### Awards (by UK student percentile)
+- Gold: ~top 5%
+- Silver: ~top 15%
+- Bronze: ~top 30%
+- Highly Commended: ~top 45%
+- Commended: ~top 60%
+
+### Historical Gold Cutoffs
+- 2024: 113.20
+- 2023: 106.64
+- 2022: 118.35
+- 2021: 63
+- 2020: 51
+
+### Recommended Study Materials
+- Campbell — Biology
+- Brooker — Genetics
+- Alberts — Molecular Biology of the Cell
+- Vanders — Human Physiology
+- Raven — Plant Biology
+- Harvey — Biochemistry
+
+## Operator: Aston Education
+- Hong Kong education consultancy, established 2000
+- UCAS Hong Kong Registered Centre
+- International Olympiad Official Exam Centre
+- 680+ UK and Australian partner institutions
+- Pearson BTEC Centre (No. 92171)
+- HK Education Bureau Registration (No. 553611)
+
+### BBO Services
+- Registration guidance
+- One-on-one academic tutoring
+- Past paper analysis and mock exams
+- A-Level Biology reinforcement
+- UCAS personal statement coaching
+- Full UK university application support
+
+### Contact
+- Phone: +852 2866 9933
+- Email: info@aston.edu.hk
+- WhatsApp: +852 2866 9933
+- Address: 5/F, 303 Hennessy Road, Wanchai, Hong Kong
+- Website: https://aston.edu.hk
+
+## Sister Sites
+- https://ukcho.hk — UK Chemistry Olympiad
+- https://usabo.hk — USA Biology Olympiad
+- https://epq.hk — Extended Project Qualification
