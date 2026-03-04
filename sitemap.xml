@@ -37,4 +37,10 @@
     <priority>0.8</priority>
   </url>
   <!-- AI-generated articles: add new URLs below -->
+  <url>
+    <loc>https://bbo.hk/articles/what-is-bbo-hong-kong-student-guide-2026</loc>
+    <lastmod>2026-03-04</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
 </urlset>
