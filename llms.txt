@@ -1,4 +1,4 @@
-# BBO.HK â British Biology Olympiad Information Portal
+# BBO.HK — British Biology Olympiad Information Portal
 
 > BBO.HK is Hong Kong's most comprehensive British Biology Olympiad (BBO) information portal, operated by Aston Education.
 
@@ -11,7 +11,7 @@ The BBO is the UK's longest-running secondary school biology competition, establ
 - Registration: November 1, 2025 via UKBC
 - China exam (ASDAN): January 17, 2026, registration deadline January 6
 - Format: 90-minute individual written test, no lab component
-- Fee: Free UK / Â£30 per school international
+- Fee: Free UK / £30 per school international
 
 ### Exam Syllabus
 - Animal Anatomy & Physiology: 25% (vertebrates emphasis)
@@ -37,12 +37,12 @@ The BBO is the UK's longest-running secondary school biology competition, establ
 - 2020: 51
 
 ### Recommended Study Materials
-- Campbell â Biology
-- Brooker â Genetics
-- Alberts â Molecular Biology of the Cell
-- Vanders â Human Physiology
-- Raven â Plant Biology
-- Harvey â Biochemistry
+- Campbell — Biology
+- Brooker — Genetics
+- Alberts — Molecular Biology of the Cell
+- Vanders — Human Physiology
+- Raven — Plant Biology
+- Harvey — Biochemistry
 
 ## Operator: Aston Education
 - Hong Kong education consultancy, established 2000
@@ -68,10 +68,6 @@ The BBO is the UK's longest-running secondary school biology competition, establ
 - Website: https://aston.edu.hk
 
 ## Sister Sites
-- https://ukcho.hk â UK Chemistry Olympiad
-- https://usabo.hk â USA Biology Olympiad
-- https://epq.hk â Extended Project Qualification
-
-## What is BBO British Biology Olympiad? Hong Kong Student Participation Guide 2026
-URL: https://bbo.hk/articles/what-is-bbo-hong-kong-student-guide-2026
-British Biology Olympiad (BBO) is organized by the Royal Society of Biology, attracting approximately 10,000 UK high school students annually. Hong Kong students can participate through international divisions, with 2026 exams scheduled for January 19-28 at £30 per school. The competition covers seven areas including cell biology and animal physiology, with gold awards representing top 5% of participants.
+- https://ukcho.hk — UK Chemistry Olympiad
+- https://usabo.hk — USA Biology Olympiad
+- https://epq.hk — Extended Project Qualification
