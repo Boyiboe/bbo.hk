@@ -874,6 +874,86 @@
       .footer-grid { grid-template-columns: 1fr; }
       .site-nav { display: none; }
     }
+
+    /* ===== HOOKS SECTION ===== */
+    .hooks-section { padding: 36px 0 12px; }
+    .hooks-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 16px; }
+    .hook-card {
+      background: var(--bio-white); border: 1px solid var(--bio-border); border-radius: 12px;
+      padding: 28px 24px; cursor: pointer; position: relative; overflow: hidden;
+      transition: border-color 0.2s, box-shadow 0.2s, transform 0.2s;
+    }
+    .hook-card:hover { border-color: var(--bio-green); box-shadow: 0 8px 28px rgba(20,80,58,0.08); transform: translateY(-2px); }
+    .hook-icon { font-size: 2rem; margin-bottom: 12px; }
+    .hook-badge {
+      position: absolute; top: 16px; right: 16px; background: var(--bio-green); color: #fff;
+      font-size: 0.68rem; font-weight: 700; padding: 3px 10px; border-radius: 100px; letter-spacing: 0.04em;
+    }
+    .hook-card h3 { font-size: 1.05rem; font-weight: 700; margin-bottom: 8px; color: var(--bio-deep); }
+    .hook-card p { font-size: 0.82rem; color: var(--bio-slate); line-height: 1.7; margin-bottom: 14px; }
+    .hook-cta { font-size: 0.85rem; font-weight: 600; color: var(--bio-green); }
+    @media (max-width: 900px) { .hooks-grid { grid-template-columns: 1fr; } }
+
+    /* ===== MODAL ===== */
+    .modal-overlay {
+      display: none; position: fixed; inset: 0; background: rgba(10,34,24,0.7);
+      z-index: 1000; align-items: center; justify-content: center; backdrop-filter: blur(4px);
+    }
+    .modal-overlay.open { display: flex; }
+    .modal-box {
+      background: #fff; border-radius: 16px; padding: 36px; max-width: 480px; width: 92%;
+      position: relative; max-height: 90vh; overflow-y: auto; box-shadow: 0 20px 60px rgba(0,0,0,0.2);
+    }
+    .modal-close {
+      position: absolute; top: 14px; right: 18px; background: none; border: none;
+      font-size: 1.6rem; color: #aaa; cursor: pointer; line-height: 1;
+    }
+    .modal-close:hover { color: #333; }
+
+    /* Quiz */
+    .quiz-progress { height: 4px; background: #E2E8E4; border-radius: 2px; margin-bottom: 20px; }
+    .quiz-bar { height: 100%; background: var(--bio-green); border-radius: 2px; transition: width 0.3s; }
+    .quiz-num { font-size: 0.75rem; color: var(--bio-muted); margin-bottom: 8px; }
+    .quiz-step h3 { font-size: 1.1rem; font-weight: 700; color: var(--bio-deep); margin-bottom: 20px; line-height: 1.5; }
+    .quiz-opts { display: flex; flex-direction: column; gap: 10px; }
+    .quiz-opt {
+      padding: 14px 18px; border: 1px solid var(--bio-border); border-radius: 10px;
+      cursor: pointer; font-size: 0.9rem; transition: all 0.15s; color: var(--bio-deep);
+    }
+    .quiz-opt:hover { border-color: var(--bio-green); background: rgba(27,140,90,0.04); }
+    .quiz-opt.selected { border-color: var(--bio-green); background: rgba(27,140,90,0.08); font-weight: 600; }
+
+    .quiz-result-icon { font-size: 3rem; text-align: center; margin-bottom: 12px; }
+    #quizResult h3 { font-size: 1.2rem; text-align: center; margin-bottom: 8px; color: var(--bio-deep); }
+    #quizResult p { font-size: 0.88rem; color: var(--bio-slate); text-align: center; line-height: 1.7; }
+    .quiz-score-bar { height: 8px; background: #E2E8E4; border-radius: 4px; margin: 16px 0 8px; }
+    .quiz-score-fill { height: 100%; border-radius: 4px; transition: width 0.6s; }
+    .quiz-score-text { font-size: 0.82rem; color: var(--bio-green); font-weight: 600; text-align: center; margin-bottom: 20px; }
+
+    /* Form */
+    .form-box { text-align: center; }
+    .form-icon { font-size: 2.5rem; margin-bottom: 8px; }
+    .form-box h3 { font-size: 1.15rem; font-weight: 700; color: var(--bio-deep); margin-bottom: 4px; }
+    .form-desc { font-size: 0.85rem; color: var(--bio-slate); margin-bottom: 20px; }
+    .form-field { text-align: left; margin-bottom: 14px; }
+    .form-field label { display: block; font-size: 0.78rem; font-weight: 600; color: var(--bio-slate); margin-bottom: 4px; }
+    .form-field input, .form-field select {
+      width: 100%; padding: 11px 14px; border: 1px solid var(--bio-border); border-radius: 8px;
+      font-size: 0.9rem; font-family: inherit; color: var(--bio-deep); background: #FAFAF5;
+    }
+    .form-field input:focus, .form-field select:focus { outline: none; border-color: var(--bio-green); }
+    .form-privacy { font-size: 0.72rem; color: var(--bio-muted); margin-top: 12px; }
+
+    .hook-btn-primary {
+      display: block; width: 100%; padding: 14px; background: var(--bio-green); color: #fff;
+      border: none; border-radius: 10px; font-size: 0.95rem; font-weight: 700; cursor: pointer;
+      font-family: inherit; margin-top: 8px; transition: background 0.15s;
+    }
+    .hook-btn-primary:hover { background: var(--bio-forest); }
+    .hook-btn-secondary {
+      display: block; width: 100%; padding: 12px; background: none; color: var(--bio-muted);
+      border: none; font-size: 0.82rem; cursor: pointer; font-family: inherit; margin-top: 4px;
+    }
   </style>
 </head>
 
@@ -968,6 +1048,105 @@
           <div class="fact-key">考試深度 Exam Level</div>
         </div>
       </div>
+    </div>
+  </div>
+
+  <!-- ===== LEAD HOOKS SECTION ===== -->
+  <section class="hooks-section" aria-label="免費資源">
+    <div class="wrap">
+      <div class="hooks-grid">
+
+        <!-- Hook 1: BBO 適合度自測 -->
+        <div class="hook-card" onclick="openQuiz()">
+          <div class="hook-icon">🧪</div>
+          <div class="hook-badge">免費自測</div>
+          <h3>BBO 適合我嗎？</h3>
+          <p>5道快速測試，1分鐘了解你是否適合參加 BBO 英國生物奧林匹克競賽</p>
+          <span class="hook-cta">立即測試 →</span>
+        </div>
+
+        <!-- Hook 2: 免費模擬試卷 -->
+        <div class="hook-card" onclick="openForm('mock')">
+          <div class="hook-icon">📝</div>
+          <div class="hook-badge">免費領取</div>
+          <h3>BBO 模擬試卷</h3>
+          <p>獲取 BBO 模擬試卷及備賽資料包，提前體驗真實考試難度與題型</p>
+          <span class="hook-cta">免費領取 →</span>
+        </div>
+
+        <!-- Hook 3: 歷年真題解析 -->
+        <div class="hook-card" onclick="openForm('papers')">
+          <div class="hook-icon">📊</div>
+          <div class="hook-badge">限時免費</div>
+          <h3>歷年真題解析</h3>
+          <p>2020-2024 年 BBO 真題逐題解析，掌握出題規律與高頻考點</p>
+          <span class="hook-cta">獲取解析 →</span>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== QUIZ MODAL ===== -->
+  <div class="modal-overlay" id="quizModal">
+    <div class="modal-box quiz-box">
+      <button class="modal-close" onclick="closeModal('quizModal')">×</button>
+
+      <!-- Quiz Steps -->
+      <div id="quizStep" class="quiz-step">
+        <div class="quiz-progress"><div class="quiz-bar" id="quizBar"></div></div>
+        <div class="quiz-num" id="quizNum">第 1/5 題</div>
+        <h3 id="quizQ"></h3>
+        <div class="quiz-opts" id="quizOpts"></div>
+      </div>
+
+      <!-- Quiz Result -->
+      <div id="quizResult" style="display:none;">
+        <div class="quiz-result-icon" id="resultIcon"></div>
+        <h3 id="resultTitle"></h3>
+        <p id="resultDesc"></p>
+        <div class="quiz-score-bar">
+          <div class="quiz-score-fill" id="scoreFill"></div>
+        </div>
+        <p class="quiz-score-text" id="scoreText"></p>
+        <button class="hook-btn-primary" onclick="closeModal('quizModal');openForm('quiz')">📋 獲取個人備賽建議</button>
+        <button class="hook-btn-secondary" onclick="closeModal('quizModal')">稍後再說</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- ===== LEAD FORM MODAL ===== -->
+  <div class="modal-overlay" id="formModal">
+    <div class="modal-box form-box">
+      <button class="modal-close" onclick="closeModal('formModal')">×</button>
+      <div class="form-icon" id="formIcon">📝</div>
+      <h3 id="formTitle">免費領取 BBO 備賽資料</h3>
+      <p id="formDesc" class="form-desc">填寫以下資訊，我們會通過 WhatsApp 發送相關資料。</p>
+
+      <div class="form-field">
+        <label>學生姓名 *</label>
+        <input type="text" id="leadName" placeholder="請輸入姓名">
+      </div>
+      <div class="form-field">
+        <label>WhatsApp 號碼 *</label>
+        <input type="tel" id="leadPhone" placeholder="例：852 9123 4567">
+      </div>
+      <div class="form-field">
+        <label>目前就讀年級</label>
+        <select id="leadGrade">
+          <option value="">請選擇（可選）</option>
+          <option value="S3-S4">中三至中四 (S3-S4)</option>
+          <option value="S5">中五 (S5)</option>
+          <option value="S6">中六 (S6)</option>
+          <option value="AS">AS Level</option>
+          <option value="A2">A2 Level</option>
+          <option value="IB">IB Diploma</option>
+          <option value="other">其他</option>
+        </select>
+      </div>
+
+      <button class="hook-btn-primary" onclick="submitLead()" id="submitBtn">提交並領取 →</button>
+      <p class="form-privacy">🔒 資訊僅用於發送學習資料，不會用於其他用途</p>
     </div>
   </div>
 
@@ -1166,7 +1345,7 @@
             <div class="sb-body">
               <p><strong>Aston Education</strong> 是 UCAS 香港註冊中心及國際奧林匹克官方考試中心，25年專業升學經驗，合作680+英澳院校。</p>
               <p>提供 BBO 報名指導、一對一備賽培訓、真題解析、A-Level 生物強化及 UCAS 申請全程服務。</p>
-              <a href="https://wa.me/85228669933" class="sb-cta-btn" target="_blank" rel="noopener">WhatsApp 免費諮詢 →</a>
+              <a href="https://wa.me/85228669933?text=%E4%BD%A0%E5%A5%BD%EF%BC%8C%E6%88%91%E6%83%B3%E4%BA%86%E8%A7%A3BBO%E8%8B%B1%E5%9C%8B%E7%94%9F%E7%89%A9%E5%A5%A7%E6%9E%97%E5%8C%B9%E5%85%8B%E7%AB%B6%E8%B3%BD%E7%9A%84%E5%A0%B1%E5%90%8D%E5%92%8C%E5%82%99%E8%B3%BD%E8%B3%87%E8%A8%8A" class="sb-cta-btn" target="_blank" rel="noopener">WhatsApp 免費諮詢 →</a>
               <div class="sb-contact">
                 ☎ <a href="tel:+85228669933">(852) 2866 9933</a><br>
                 ✉ <a href="/cdn-cgi/l/email-protection#87eee9e1e8c7e6f4f3e8e9a9e2e3f2a9efec"><span class="__cf_email__" data-cfemail="d4bdbab2bb94b5a7a0bbbafab1b0a1fabcbf">[email&#160;protected]</span></a><br>
@@ -1328,6 +1507,36 @@
     </div>
   </footer>
 
+  <!-- FLOATING WHATSAPP BUTTON -->
+  <a href="https://wa.me/85228669933?text=%E4%BD%A0%E5%A5%BD%EF%BC%8C%E6%88%91%E6%83%B3%E4%BA%86%E8%A7%A3BBO%E8%8B%B1%E5%9C%8B%E7%94%9F%E7%89%A9%E5%A5%A7%E6%9E%97%E5%8C%B9%E5%85%8B%E7%AB%B6%E8%B3%BD%E7%9A%84%E5%A0%B1%E5%90%8D%E5%92%8C%E5%82%99%E8%B3%BD%E8%B3%87%E8%A8%8A" class="wa-float" target="_blank" rel="noopener" aria-label="WhatsApp 諮詢">
+    <svg viewBox="0 0 32 32" width="28" height="28" fill="#fff"><path d="M16.004 0h-.008C7.174 0 0 7.176 0 16.004c0 3.5 1.128 6.744 3.046 9.378L1.054 31.29l6.118-1.958A15.9 15.9 0 0016.004 32C24.826 32 32 24.826 32 16.004S24.826 0 16.004 0zm9.31 22.606c-.39 1.1-1.932 2.014-3.168 2.28-.846.18-1.95.324-5.67-1.218-4.762-1.974-7.826-6.81-8.064-7.126-.23-.316-1.932-2.574-1.932-4.908 0-2.334 1.224-3.48 1.658-3.956.39-.43 1.03-.612 1.644-.612.198 0 .376.01.536.018.474.02.712.048 1.024.792.39.93 1.338 3.264 1.454 3.502.118.238.236.556.078.872-.15.324-.282.468-.52.738-.238.27-.464.478-.702.77-.22.254-.466.526-.198.996.268.464 1.192 1.926 2.558 3.122 1.756 1.538 3.236 2.014 3.696 2.24.34.166.746.132 1.024-.166.354-.376.792-.998 1.236-1.614.316-.438.716-.494 1.09-.336.38.15 2.406 1.136 2.818 1.342.412.208.686.31.786.482.098.17.098.996-.292 2.096z"/></svg>
+  </a>
+  <style>
+    .wa-float {
+      position: fixed;
+      bottom: 28px;
+      right: 28px;
+      width: 60px;
+      height: 60px;
+      background: #25D366;
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      box-shadow: 0 4px 16px rgba(37,211,102,0.4);
+      z-index: 999;
+      transition: transform 0.2s, box-shadow 0.2s;
+      text-decoration: none;
+    }
+    .wa-float:hover {
+      transform: scale(1.1);
+      box-shadow: 0 6px 24px rgba(37,211,102,0.5);
+    }
+    @media (max-width: 768px) {
+      .wa-float { bottom: 20px; right: 20px; width: 54px; height: 54px; }
+    }
+  </style>
+
   <!-- FAQ JS — 爬蟲看到展開內容，JS加載後才摺疊 -->
   <script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script>
     // 立即添加 class，CSS 接管摺疊
@@ -1349,6 +1558,176 @@
     });
   </script>
   <noscript><style>.faq-a{max-height:none!important;overflow:visible!important}.faq-q::after{display:none}</style></noscript>
+
+  <!-- HOOKS: Quiz & Form JS -->
+  <script>
+  // ===== QUIZ DATA =====
+  const quizData = [
+    {
+      q: '你目前的生物學科成績如何？',
+      opts: [
+        { text: 'A/A*（或同等水平，如 IB 7）', score: 3 },
+        { text: 'B（或同等水平，如 IB 5-6）', score: 2 },
+        { text: 'C 或以下', score: 1 },
+        { text: '尚未修讀生物', score: 0 }
+      ]
+    },
+    {
+      q: '你對以下哪些生物學領域有興趣？（選擇最符合的）',
+      opts: [
+        { text: '遺傳學 (Genetics)、分子生物學、進化論', score: 3 },
+        { text: '動物生理學、人體解剖學', score: 2 },
+        { text: '生態學、環境科學', score: 2 },
+        { text: '不太確定，想嘗試了解', score: 1 }
+      ]
+    },
+    {
+      q: '你是否有計劃申請英國大學的生物相關專業？',
+      opts: [
+        { text: '是，目標牛劍 / G5 大學', score: 3 },
+        { text: '是，考慮申請英國大學生物或醫學', score: 2 },
+        { text: '還在考慮中', score: 1 },
+        { text: '暫時沒有計劃', score: 0 }
+      ]
+    },
+    {
+      q: '你目前的就讀年級是？',
+      opts: [
+        { text: 'AS / 中五 / IB Y1（最佳參賽時間）', score: 3 },
+        { text: 'A2 / 中六 / IB Y2', score: 2 },
+        { text: 'IGCSE / 中四或更低', score: 2 },
+        { text: '已畢業', score: 0 }
+      ]
+    },
+    {
+      q: '你願意投入多少時間備賽？',
+      opts: [
+        { text: '每週 5 小時以上，持續 2-3 個月', score: 3 },
+        { text: '每週 2-3 小時', score: 2 },
+        { text: '考前突擊 1-2 週', score: 1 },
+        { text: '暫時不確定', score: 1 }
+      ]
+    }
+  ];
+
+  let quizIdx = 0, quizScore = 0;
+
+  function openQuiz() {
+    quizIdx = 0; quizScore = 0;
+    document.getElementById('quizStep').style.display = '';
+    document.getElementById('quizResult').style.display = 'none';
+    renderQuiz();
+    document.getElementById('quizModal').classList.add('open');
+  }
+
+  function renderQuiz() {
+    const d = quizData[quizIdx];
+    document.getElementById('quizNum').textContent = `第 ${quizIdx+1}/${quizData.length} 題`;
+    document.getElementById('quizBar').style.width = ((quizIdx) / quizData.length * 100) + '%';
+    document.getElementById('quizQ').textContent = d.q;
+    document.getElementById('quizOpts').innerHTML = d.opts.map((o, i) =>
+      `<div class="quiz-opt" onclick="selectQuiz(${i})">${o.text}</div>`
+    ).join('');
+  }
+
+  function selectQuiz(i) {
+    quizScore += quizData[quizIdx].opts[i].score;
+    quizIdx++;
+    if (quizIdx < quizData.length) {
+      renderQuiz();
+    } else {
+      showQuizResult();
+    }
+  }
+
+  function showQuizResult() {
+    document.getElementById('quizStep').style.display = 'none';
+    document.getElementById('quizResult').style.display = '';
+    document.getElementById('quizBar').style.width = '100%';
+
+    const max = quizData.length * 3;
+    const pct = Math.round(quizScore / max * 100);
+    let icon, title, desc;
+
+    if (pct >= 75) {
+      icon = '🌟'; title = '非常適合參加 BBO！';
+      desc = '你的學術基礎和目標與 BBO 高度匹配。建議盡早開始系統備賽，爭取 Gold 或 Silver 獎項，為 UCAS 申請增添強有力的學術證據。';
+    } else if (pct >= 50) {
+      icon = '✅'; title = '適合參加 BBO';
+      desc = '你有良好的基礎條件。通過有針對性的備賽準備，完全有機會在 BBO 中取得不錯的成績。建議從核心教材開始系統學習。';
+    } else if (pct >= 25) {
+      icon = '💡'; title = '可以考慮參加 BBO';
+      desc = '雖然可能需要更多準備時間，但參與 BBO 本身就是很好的學習機會。建議先加強 A-Level Biology 基礎，再逐步接觸競賽題型。';
+    } else {
+      icon = '📚'; title = '建議先打好基礎';
+      desc = '目前可能還不是參加 BBO 的最佳時機。建議先鞏固生物學科基礎，未來再考慮參賽。我們可以為你規劃合適的學習路徑。';
+    }
+
+    document.getElementById('resultIcon').textContent = icon;
+    document.getElementById('resultTitle').textContent = title;
+    document.getElementById('resultDesc').textContent = desc;
+    document.getElementById('scoreFill').style.width = pct + '%';
+    document.getElementById('scoreFill').style.background = pct >= 75 ? '#D4A843' : pct >= 50 ? '#1B8C5A' : pct >= 25 ? '#5B8DEF' : '#8A9BA8';
+    document.getElementById('scoreText').textContent = `適合度：${pct}%`;
+  }
+
+  // ===== FORM =====
+  let currentFormType = '';
+
+  function openForm(type) {
+    currentFormType = type;
+    const icons = { mock: '📝', papers: '📊', quiz: '🧪' };
+    const titles = {
+      mock: '免費領取 BBO 模擬試卷',
+      papers: '獲取 BBO 歷年真題解析',
+      quiz: '獲取你的個人備賽建議'
+    };
+    const descs = {
+      mock: '填寫以下資訊，我們會通過 WhatsApp 發送 BBO 模擬試卷和備賽資料包。',
+      papers: '填寫以下資訊，即可獲取 2020-2024 年 BBO 歷年真題逐題解析（PDF）。',
+      quiz: '根據你的自測結果，我們會為你提供個人化的 BBO 備賽建議和學習計劃。'
+    };
+    document.getElementById('formIcon').textContent = icons[type] || '📋';
+    document.getElementById('formTitle').textContent = titles[type] || '免費領取 BBO 資料';
+    document.getElementById('formDesc').textContent = descs[type] || '';
+    document.getElementById('leadName').value = '';
+    document.getElementById('leadPhone').value = '';
+    document.getElementById('leadGrade').value = '';
+    document.getElementById('formModal').classList.add('open');
+  }
+
+  function submitLead() {
+    const name = document.getElementById('leadName').value.trim();
+    const phone = document.getElementById('leadPhone').value.trim();
+    const grade = document.getElementById('leadGrade').value;
+
+    if (!name) { alert('請填寫學生姓名'); return; }
+    if (!phone) { alert('請填寫 WhatsApp 號碼'); return; }
+
+    const typeLabels = { mock: '模擬試卷', papers: '歷年真題解析', quiz: '備賽建議' };
+    const label = typeLabels[currentFormType] || '資料';
+
+    // Build WhatsApp message
+    let msg = `你好，我是 ${name}`;
+    if (grade) msg += `（${grade}）`;
+    msg += `，透過 BBO.HK 申請免費${label}。我的 WhatsApp：${phone}。請發送相關資料，謝謝！`;
+
+    const waUrl = `https://wa.me/85228669933?text=${encodeURIComponent(msg)}`;
+    
+    closeModal('formModal');
+
+    // Show thank you then redirect
+    setTimeout(() => { window.open(waUrl, '_blank'); }, 300);
+  }
+
+  // ===== MODAL UTILS =====
+  function closeModal(id) { document.getElementById(id).classList.remove('open'); }
+
+  // Close on overlay click
+  document.querySelectorAll('.modal-overlay').forEach(m => {
+    m.addEventListener('click', (e) => { if (e.target === m) m.classList.remove('open'); });
+  });
+  </script>
 
   <!-- AI Crawl Summary -->
   <!--
