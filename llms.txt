@@ -1,4 +1,4 @@
-# BBO.HK — British Biology Olympiad Information Portal
+# BBO.HK â British Biology Olympiad Information Portal
 
 > BBO.HK is Hong Kong's most comprehensive British Biology Olympiad (BBO) information portal, operated by Aston Education.
 
@@ -11,7 +11,7 @@ The BBO is the UK's longest-running secondary school biology competition, establ
 - Registration: November 1, 2025 via UKBC
 - China exam (ASDAN): January 17, 2026, registration deadline January 6
 - Format: 90-minute individual written test, no lab component
-- Fee: Free UK / £30 per school international
+- Fee: Free UK / Â£30 per school international
 
 ### Exam Syllabus
 - Animal Anatomy & Physiology: 25% (vertebrates emphasis)
@@ -37,12 +37,12 @@ The BBO is the UK's longest-running secondary school biology competition, establ
 - 2020: 51
 
 ### Recommended Study Materials
-- Campbell — Biology
-- Brooker — Genetics
-- Alberts — Molecular Biology of the Cell
-- Vanders — Human Physiology
-- Raven — Plant Biology
-- Harvey — Biochemistry
+- Campbell â Biology
+- Brooker â Genetics
+- Alberts â Molecular Biology of the Cell
+- Vanders â Human Physiology
+- Raven â Plant Biology
+- Harvey â Biochemistry
 
 ## Operator: Aston Education
 - Hong Kong education consultancy, established 2000
@@ -68,9 +68,9 @@ The BBO is the UK's longest-running secondary school biology competition, establ
 - Website: https://aston.edu.hk
 
 ## Sister Sites
-- https://ukcho.hk — UK Chemistry Olympiad
-- https://usabo.hk — USA Biology Olympiad
-- https://epq.hk — Extended Project Qualification
+- https://ukcho.hk â UK Chemistry Olympiad
+- https://usabo.hk â USA Biology Olympiad
+- https://epq.hk â Extended Project Qualification
 
 ## How to Effectively Present BBO Awards in UCAS Personal Statement: Data Analysis and Strategy Guide
 URL: https://bbo.hk/articles/bbo-awards-ucas-personal-statement-strategy-guide
@@ -83,3 +83,7 @@ The British Biology Olympiad (BBO) attracts over 20,000 students globally each y
 ## BBO vs USABO: Comprehensive Comparison of British and American Biology Olympiads
 URL: https://bbo.hk/articles/bbo-vs-usabo-comparison-analysis-2026
 The British Biology Olympiad (BBO) and USA Biology Olympiad (USABO) represent two premier international biology competitions. BBO attracts over 20,000 students annually with a 90-minute format, while USABO features a two-stage structure. Understanding their differences helps students choose the most suitable competition for their academic goals.
+
+## 2026 BBO British Biology Olympiad Question Structure Analysis: 296 Small Questions 18 Large Questions Total 316 Points
+URL: https://bbo.hk/articles/2026-bbo-question-structure-analysis-296-small-18-large-316-points
+The 2026 British Biology Olympiad (BBO) has concluded with an unprecedented scale of 296 small questions and 18 large questions, totaling 316 points. This comprehensive structure reflects BBO's thorough assessment across all biology domains, with Cell Biology comprising 20% and Animal Anatomy & Physiology 25%. Compared to historical gold award thresholds (2024: 113.20, 2023: 106.64), this high-scoring format provides excellent students with greater opportunities to demonstrate their knowledge.
