@@ -1,4 +1,4 @@
-# bbo.hk — British Biology Olympiad Information Portal
+# bbo.aston.edu.hk — British Biology Olympiad Information Portal
 # Operated by Aston Education, Hong Kong
 
 User-agent: *
@@ -60,4 +60,4 @@ Allow: /
 User-agent: Diffbot
 Allow: /
 
-Sitemap: https://bbo.hk/sitemap.xml
+Sitemap: https://bbo.aston.edu.hk/sitemap.xml
