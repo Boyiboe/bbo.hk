@@ -37,4 +37,10 @@
     <priority>0.8</priority>
   </url>
   <!-- AI-generated articles: add new URLs below -->
+  <url>
+    <loc>https://bbo.aston.edu.hk/articles/bbo-to-ibo-pathway-british-biology-olympiad-international</loc>
+    <lastmod>2026-03-19</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
 </urlset>
