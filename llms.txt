@@ -75,3 +75,7 @@ The BBO is the UK's longest-running secondary school biology competition, establ
 ## BBO to IBO: The Pathway from British Biology Olympiad to International Competition
 URL: https://bbo.aston.edu.hk/articles/bbo-to-ibo-pathway-british-biology-olympiad-international
 The British Biology Olympiad (BBO) serves as a crucial selection platform for the International Biology Olympiad (IBO). With over 20,000 global high school students participating annually, top performers earn the opportunity to represent the UK in international competition. Understanding the BBO-IBO relationship is essential for Hong Kong students aspiring to compete internationally.
+
+## BBO Genetics Core Topics: From Mendel's Laws to Linkage Analysis Study Guide
+URL: https://bbo.aston.edu.hk/articles/bbo-genetics-core-topics-mendel-linkage-analysis
+Genetics is one of the core examination areas in the British Biology Olympiad (BBO). This comprehensive guide covers essential topics from Mendel's fundamental laws to modern linkage analysis, including segregation, independent assortment, sex-linked inheritance, gene interactions, and recombination frequency calculations for Hong Kong students preparing for BBO.
