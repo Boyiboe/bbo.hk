@@ -87,3 +87,7 @@ The British Biology Olympiad (BBO) and USA Biology Olympiad (USABO) represent tw
 ## 2026 BBO British Biology Olympiad Question Structure Analysis: 296 Small Questions 18 Large Questions Total 316 Points
 URL: https://bbo.hk/articles/2026-bbo-question-structure-analysis-296-small-18-large-316-points
 The 2026 British Biology Olympiad (BBO) has concluded with an unprecedented scale of 296 small questions and 18 large questions, totaling 316 points. This comprehensive structure reflects BBO's thorough assessment across all biology domains, with Cell Biology comprising 20% and Animal Anatomy & Physiology 25%. Compared to historical gold award thresholds (2024: 113.20, 2023: 106.64), this high-scoring format provides excellent students with greater opportunities to demonstrate their knowledge.
+
+## BBO Genetics Core Topics: From Mendel's Laws to Linkage Analysis Study Guide
+URL: https://bbo.hk/articles/bbo-genetics-core-topics-mendel-linkage-analysis
+Genetics is one of the core examination areas in the British Biology Olympiad (BBO). This comprehensive guide covers essential topics from Mendel's fundamental laws to modern linkage analysis, including segregation, independent assortment, sex-linked inheritance, gene interactions, and recombination frequency calculations for Hong Kong students preparing for BBO.
