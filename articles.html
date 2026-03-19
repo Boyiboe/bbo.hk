@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="zh-HK">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>BBO 資訊文章 — BBO.HK 英國生物奧林匹克香港資訊站</title>
+  <meta name="description" content="BBO.HK articles hub — latest guides, preparation strategies, score analysis and news about the British Biology Olympiad (BBO). 最新BBO競賽攻略、備賽策略、分數線分析和競賽動態。Operated by Aston Education.">
+  <meta name="robots" content="index, follow, max-snippet:-1">
+  <meta name="ai-summary" content="BBO.HK articles listing page. All guides, preparation strategies, score analysis and competition news about the British Biology Olympiad (BBO) for Hong Kong students. BBO.HK is operated by Aston Education, a UCAS registered centre in Hong Kong. Contact: +852 2866 9933, info@aston.edu.hk.">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="BBO 資訊文章 — BBO.HK">
+  <meta property="og:url" content="https://bbo.aston.edu.hk/articles.html">
+  <meta property="og:site_name" content="BBO.HK">
+  <link rel="canonical" href="https://bbo.aston.edu.hk/articles.html">
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "CollectionPage",
+    "name": "BBO Competition Articles and Guides",
+    "description": "All articles about the British Biology Olympiad: preparation guides, score analysis, registration news, and UCAS application advice.",
+    "url": "https://bbo.aston.edu.hk/articles.html",
+    "isPartOf": {"@type":"WebSite","name":"BBO.HK","url":"https://bbo.aston.edu.hk"},
+    "publisher": {"@type":"Organization","name":"Aston Education","url":"https://aston.edu.hk"}
+  }
+  </script>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@400;500;600;700&family=Fraunces:opsz,wght@9..144,700;9..144,900&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --deep:#0A2218; --forest:#14503A; --green:#1B8C5A; --mint:#3DD68C;
+      --cream:#FAFAF5; --white:#FFF; --slate:#4A5568; --muted:#8A9BA8; --border:#E2E8E4;
+      --font-display:'Fraunces',Georgia,serif; --font-body:'Noto Sans TC',sans-serif;
+    }
+    *{margin:0;padding:0;box-sizing:border-box}
+    body{font-family:var(--font-body);color:var(--deep);background:var(--cream);line-height:1.75}
+    a{color:var(--forest);text-decoration:none} a:hover{color:var(--green)}
+    .wrap{max-width:1000px;margin:0 auto;padding:0 24px}
+
+    /* Header */
+    .topbar{background:var(--deep);color:rgba(255,255,255,0.5);font-size:0.78rem;padding:8px 0}
+    .topbar-inner{display:flex;justify-content:space-between;align-items:center}
+    .topbar a{color:var(--mint)}
+    .site-header{background:var(--white);border-bottom:1px solid var(--border);position:sticky;top:0;z-index:100}
+    .header-inner{display:flex;align-items:center;justify-content:space-between;height:64px}
+    .site-logo{display:flex;align-items:center;gap:10px;text-decoration:none}
+    .logo-icon{width:36px;height:36px;background:var(--forest);border-radius:8px;display:flex;align-items:center;justify-content:center;font-size:1.1rem;color:#BFFF50;font-weight:900;font-family:var(--font-display)}
+    .logo-text{font-family:var(--font-display);font-size:1.35rem;font-weight:900;color:var(--deep);letter-spacing:-0.02em}
+    .logo-text .hk{color:var(--green)}
+    .logo-sub{font-size:0.68rem;color:var(--muted);font-weight:400;display:block;margin-top:-3px}
+    .site-nav{display:flex;align-items:center;gap:28px;font-size:0.88rem;font-weight:500}
+    .nav-cta{background:var(--forest);color:var(--white)!important;padding:8px 18px;border-radius:6px;font-size:0.82rem}
+    .nav-cta:hover{background:var(--green)}
+
+    /* Page header */
+    .page-hero{background:var(--deep);padding:48px 0;color:var(--white)}
+    .page-hero h1{font-family:var(--font-display);font-size:1.8rem;font-weight:900;margin-bottom:8px}
+    .page-hero p{color:rgba(255,255,255,0.6);font-size:0.92rem;max-width:600px}
+    .breadcrumb{font-size:0.78rem;color:rgba(255,255,255,0.4);margin-bottom:16px}
+    .breadcrumb a{color:var(--mint)}
+
+    /* Filter */
+    .filter-bar{padding:20px 0;border-bottom:1px solid var(--border);margin-bottom:32px}
+    .filters{display:flex;gap:8px;flex-wrap:wrap}
+    .filter-btn{padding:6px 16px;border:1px solid var(--border);border-radius:100px;font-size:0.82rem;font-weight:500;cursor:pointer;transition:all 0.15s;background:var(--white)}
+    .filter-btn:hover{border-color:var(--green);color:var(--green)}
+    .filter-btn.active{border-color:var(--forest);background:var(--forest);color:var(--white)}
+
+    /* Article grid */
+    .articles-grid{display:grid;grid-template-columns:1fr;gap:20px;padding-bottom:48px}
+    .article-card{background:var(--white);border:1px solid var(--border);border-radius:10px;padding:28px 32px;transition:border-color 0.2s,box-shadow 0.2s}
+    .article-card:hover{border-color:var(--green);box-shadow:0 4px 20px rgba(20,80,58,0.06)}
+    .article-tag{display:inline-block;font-size:0.7rem;font-weight:700;text-transform:uppercase;letter-spacing:0.08em;padding:3px 10px;border-radius:4px;margin-bottom:10px}
+    .tag-guide{background:rgba(20,80,58,0.08);color:var(--forest)}
+    .tag-strategy{background:rgba(212,168,67,0.12);color:#B8922E}
+    .tag-data{background:rgba(91,141,239,0.1);color:#4A7AD4}
+    .tag-news{background:rgba(61,214,140,0.1);color:var(--green)}
+    .article-card h2{font-size:1.15rem;font-weight:700;line-height:1.4;margin-bottom:10px}
+    .article-card h2 a{color:var(--deep)} .article-card h2 a:hover{color:var(--forest)}
+    .article-excerpt{font-size:0.88rem;color:var(--slate);line-height:1.8;margin-bottom:12px}
+    .article-meta{font-size:0.78rem;color:var(--muted)}
+
+    /* Footer */
+    footer{background:var(--deep);padding:32px 0;color:rgba(255,255,255,0.45);font-size:0.82rem;text-align:center}
+    footer a{color:var(--mint);text-decoration:none}
+
+    /* Empty */
+    .empty{text-align:center;padding:60px 20px;color:var(--muted)}
+
+    @media(max-width:768px){
+      .site-nav{display:none}
+      .page-hero h1{font-size:1.4rem}
+    }
+  </style>
+</head>
+<body>
+
+  <!-- TOPBAR -->
+  <div class="topbar">
+    <div class="wrap topbar-inner">
+      <span>由 <a href="https://aston.edu.hk" target="_blank" rel="noopener">Aston Education</a> 營運 · UCAS香港註冊中心</span>
+      <span>☎ <a href="tel:+85228669933">(852) 2866 9933</a> · <a href="/cdn-cgi/l/email-protection#70191e161f301103041f1e5e1514055e181b"><span class="__cf_email__" data-cfemail="5831363e3718392b2c3736763d3c2d763033">[email&#160;protected]</span></a></span>
+    </div>
+  </div>
+
+  <!-- HEADER -->
+  <header class="site-header">
+    <div class="wrap header-inner">
+      <a href="https://bbo.aston.edu.hk" class="site-logo">
+        <div class="logo-icon">B</div>
+        <div>
+          <div class="logo-text">BBO<span class="hk">.HK</span></div>
+          <span class="logo-sub">British Biology Olympiad</span>
+        </div>
+      </a>
+      <nav class="site-nav">
+        <a href="https://bbo.aston.edu.hk/#about">競賽簡介</a>
+        <a href="https://bbo.aston.edu.hk/articles.html" style="color:var(--green);font-weight:700;">資訊文章</a>
+        <a href="https://bbo.aston.edu.hk/#scores">分數線</a>
+        <a href="https://bbo.aston.edu.hk/#faq">常見問題</a>
+        <a href="https://bbo.aston.edu.hk/#contact" class="nav-cta">免費諮詢</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- PAGE HERO -->
+  <div class="page-hero">
+    <div class="wrap">
+      <div class="breadcrumb"><a href="https://bbo.aston.edu.hk">首頁</a> › 資訊文章</div>
+      <h1>BBO 資訊文章</h1>
+      <p>最新的英國生物奧林匹克競賽攻略、備賽策略、分數線分析和競賽動態 — 由 Aston Education 專業團隊撰寫</p>
+    </div>
+  </div>
+
+  <!-- FILTER BAR -->
+  <div class="wrap">
+    <div class="filter-bar">
+      <div class="filters">
+        <span class="filter-btn active" onclick="filterAll(this)">全部</span>
+        <span class="filter-btn" onclick="filterCat(this,'guide')">📘 競賽指南</span>
+        <span class="filter-btn" onclick="filterCat(this,'strategy')">🎯 備賽策略</span>
+        <span class="filter-btn" onclick="filterCat(this,'data')">📊 數據分析</span>
+        <span class="filter-btn" onclick="filterCat(this,'news')">📰 競賽動態</span>
+      </div>
+    </div>
+
+    <!-- ARTICLE LIST -->
+    <div class="articles-grid" id="articleList">
+
+      <!-- ARTICLE ITEMS — 新文章插入此處（最新在最前面） -->
+      <!-- NEW_ARTICLE_INJECTION_POINT -->
+
+      <!-- 預置文章 -->
+      <article class="article-card" data-cat="guide">
+        <span class="article-tag tag-guide">競賽指南 Guide</span>
+        <h2><a href="https://bbo.aston.edu.hk/articles/bbo-complete-guide">BBO英國生物奧林匹克完整介紹：賽事背景、考試形式與報名方式</a></h2>
+        <p class="article-excerpt">英國中學生物奧林匹克（British Biology Olympiad，簡稱BBO）自1995年設立，由英國皇家生物學會（Royal Society of Biology, RSB）主辦，是英國歷史最長、影響最大的中學生物競賽。每年英國有近萬名高中生參與BBO，優秀者被選拔組成英國國家隊參加國際生物學奧林匹克（IBO）。</p>
+        <div class="article-meta">BBO.HK 編輯部 · <time datetime="2025-11-01">2025年11月1日</time></div>
+      </article>
+
+      <article class="article-card" data-cat="data">
+        <span class="article-tag tag-data">數據分析 Data</span>
+        <h2><a href="https://bbo.aston.edu.hk/articles/bbo-score-cutoffs-2020-2024">BBO歷年分數線深度分析：2020-2024金牌到底需要多少分？</a></h2>
+        <p class="article-excerpt">詳解近五年BBO各獎項分數線變化趨勢。2024年金獎線113.20分、銀獎103.30、銅獎96.05。相比2022年高峰期（金獎118.35）有所回落。約需65%以上正確率獲得金牌。</p>
+        <div class="article-meta">BBO.HK 編輯部 · <time datetime="2025-11-15">2025年11月15日</time></div>
+      </article>
+
+      <article class="article-card" data-cat="strategy">
+        <span class="article-tag tag-strategy">備賽策略 Prep</span>
+        <h2><a href="https://bbo.aston.edu.hk/articles/bbo-exam-syllabus-prep-guide">BBO考試範圍全解析：七大知識模組的備賽重點與推薦書目</a></h2>
+        <p class="article-excerpt">BBO考察七大領域：動物解剖與生理學(25%)、細胞生物學(20%)、遺傳與進化(20%)、植物解剖與生理學(15%)、生態學(10%)、動物行為學(5%)、生物分類學(5%)。推薦核心教材：Campbell、Brooker、Alberts等。</p>
+        <div class="article-meta">BBO.HK 編輯部 · <time datetime="2025-12-01">2025年12月1日</time></div>
+      </article>
+
+      <article class="article-card" data-cat="guide">
+        <span class="article-tag tag-guide">升學指南 Admissions</span>
+        <h2><a href="https://bbo.aston.edu.hk/articles/bbo-ucas-personal-statement-g5">BBO獲獎如何寫進UCAS個人陳述？G5大學生物專業申請攻略</a></h2>
+        <p class="article-excerpt">分析BBO競賽成績在UCAS申請中的實際價值。劍橋自然科學、牛津生物科學、帝國理工生物醫學等專業尤其看重奧賽經歷。文章提供個人陳述中融入BBO經歷的實際寫作框架和案例分析。</p>
+        <div class="article-meta">BBO.HK 編輯部 · <time datetime="2025-12-15">2025年12月15日</time></div>
+      </article>
+
+      <article class="article-card" data-cat="news">
+        <span class="article-tag tag-news">競賽動態 News</span>
+        <h2><a href="https://bbo.aston.edu.hk/articles/bbo-2026-registration-guide">BBO 2026報名正式開放：時間節點、報名流程與注意事項</a></h2>
+        <p class="article-excerpt">2026賽季報名已於2025年11月1日開放。英國及國際賽區通過UKBC官網報名，考試窗口為2026年1月19-28日。中國賽區通過ASDAN報名，截止2026年1月6日。</p>
+        <div class="article-meta">BBO.HK 編輯部 · <time datetime="2026-01-05">2026年1月5日</time></div>
+      </article>
+
+    </div>
+  </div>
+
+  <!-- FLOATING WHATSAPP -->
+  <a href="https://wa.me/85228669933?text=%E4%BD%A0%E5%A5%BD%EF%BC%8C%E6%88%91%E6%83%B3%E4%BA%86%E8%A7%A3BBO%E7%AB%B6%E8%B3%BD%E8%B3%87%E8%A8%8A" class="wa-float" target="_blank" rel="noopener" aria-label="WhatsApp 諮詢">
+    <svg viewBox="0 0 32 32" width="28" height="28" fill="#fff"><path d="M16.004 0h-.008C7.174 0 0 7.176 0 16.004c0 3.5 1.128 6.744 3.046 9.378L1.054 31.29l6.118-1.958A15.9 15.9 0 0016.004 32C24.826 32 32 24.826 32 16.004S24.826 0 16.004 0zm9.31 22.606c-.39 1.1-1.932 2.014-3.168 2.28-.846.18-1.95.324-5.67-1.218-4.762-1.974-7.826-6.81-8.064-7.126-.23-.316-1.932-2.574-1.932-4.908 0-2.334 1.224-3.48 1.658-3.956.39-.43 1.03-.612 1.644-.612.198 0 .376.01.536.018.474.02.712.048 1.024.792.39.93 1.338 3.264 1.454 3.502.118.238.236.556.078.872-.15.324-.282.468-.52.738-.238.27-.464.478-.702.77-.22.254-.466.526-.198.996.268.464 1.192 1.926 2.558 3.122 1.756 1.538 3.236 2.014 3.696 2.24.34.166.746.132 1.024-.166.354-.376.792-.998 1.236-1.614.316-.438.716-.494 1.09-.336.38.15 2.406 1.136 2.818 1.342.412.208.686.31.786.482.098.17.098.996-.292 2.096z"/></svg>
+  </a>
+  <style>.wa-float{position:fixed;bottom:28px;right:28px;width:60px;height:60px;background:#25D366;border-radius:50%;display:flex;align-items:center;justify-content:center;box-shadow:0 4px 16px rgba(37,211,102,0.4);z-index:999;transition:transform 0.2s;text-decoration:none}.wa-float:hover{transform:scale(1.1);box-shadow:0 6px 24px rgba(37,211,102,0.5)}</style>
+
+  <!-- FOOTER -->
+  <footer>
+    <div class="wrap">
+      © 2026 <a href="https://bbo.aston.edu.hk">BBO.HK</a> — Operated by <a href="https://aston.edu.hk">Aston Education</a> · <a href="https://bbo.aston.edu.hk">返回首頁</a>
+    </div>
+  </footer>
+
+  <script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script>
+    function filterAll(el) {
+      document.querySelectorAll('.filter-btn').forEach(b => b.classList.remove('active'));
+      el.classList.add('active');
+      document.querySelectorAll('.article-card').forEach(c => c.style.display = '');
+    }
+    function filterCat(el, cat) {
+      document.querySelectorAll('.filter-btn').forEach(b =
